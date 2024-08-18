@@ -1,0 +1,80 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    
+
+         <!-- Page Title -->
+    <div class="page-title accent-background">
+        <div class="container d-lg-flex justify-content-between align-items-center">
+          <h1 class="mb-2 mb-lg-0"> Member Login</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current"> Login Here</li>
+            </ol>
+          </nav>
+        </div>
+      </div><!-- End Page Title -->
+      <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      
+        <div class="container" data-aos="fade">
+  
+          <div class="row gy-5 gx-lg-5 mt-0">
+  
+            <div class="col-lg-5">
+  
+              <div class="info">
+                <h3>Welcome to Pennbreeds Portal</h3>
+                <p>Registered members can login with their Username or email and password.</p>
+  
+                <div class="info-item d-flex">
+                  <i class="bi bi-person-fill-add flex-shrink-0"></i>
+                  <div>
+                    <a><h4>Registration Instruction:</h4></a>
+                    <!-- <p>A108 Adam Street, New York, NY 535022</p> -->
+                  </div>
+                </div><!-- End Info Item -->
+  
+               
+  
+                <div class="info-item d-flex">
+                  <i class="bi bi-cash-coin flex-shrink-0"></i>
+                  <div>
+                    <a><h4>Membership Dues</h4></a>
+                    <!-- <p>+1 5589 55488 55</p> -->
+                  </div>
+                </div><!-- End Info Item -->
+  
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-7">
+                <form method="POST">
+                {% csrf_token %}
+                <fieldset class=""form-group>
+                    <legend class="border-bottom mb-4">
+                        Log In
+                    </legend>
+                    {{ form|crispy }}
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-info mt-2" type="submit">Login</button>
+                </div>
+            </form>            
+            <div class="border-top pt-3">
+                <small class="text-muted">
+                    Create An Account? <a class="ml-4" href="{% url 'register' %}">Sign Up</a>
+                </small>
+            </div> 
+          </div>
+  
+        </div>
+        </div>
+  
+      </section><!-- /Contact Section -->
+      
+   
+{% endblock content %}

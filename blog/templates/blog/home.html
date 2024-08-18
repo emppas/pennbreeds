@@ -1,0 +1,118 @@
+{% extends "blog/base.html" %}
+{% load static %}
+
+{% block content %}
+{% include 'blog/slider.html' %}
+
+
+  <!-- blog post on home page -->
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+
+    <div class="container">
+
+      <div class="row position-relative">
+
+        <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="{% static 'blog/img/about.jpg' %}"></div>
+
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+          <h2 class="inner-title">Pennbreeds Club</h2>
+          <div class="our-story">
+            <h4>Est 1988</h4>
+            <h3>Our Story</h3>
+            <p>Welcome! to Pennbreeds Club of Opobo. Rebuilding and renewing the vision of relevance of Modern Opobo Kingdom.</p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Accelerating advancements in this pivotal decade.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Granting Scholarships & Grants</span></li>
+              <li><i class="bi bi-check-circle"></i> <span></span></li>
+            </ul>
+            <p>To nurture a strong sense of unity and actively enhance the socio-economic prosperity of every member, ensuring the overall growth and development of the Opobo Kingdom..</p>
+
+            <div class="watch-video d-flex align-items-center position-relative">
+              <i class="bi bi-play-circle"></i>
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox stretched-link">Watch Video</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section><!-- /About Section -->
+
+  {% include 'blog/services.html' %}
+  {% include 'blog/article.html' %}
+  {% include 'blog/portfolio.html' %}
+
+  
+
+    
+
+ 
+
+
+
+
+
+
+
+    <!-- <div class="row mb-5"> -->
+      <!-- blog item-->
+      <!-- {% for post in posts %}
+      <div class="col-lg-6 col-sm-12 mb-4 hover-animate">
+        <div class="card shadow border-0 h-100"> -->
+          <!-- <a href="#">
+            <img class="img-fluid card-img-top" src="/media/{{blog.image}}" alt="..."/></a> -->
+          <!-- <div class="card-body">
+            <a class="text-uppercase text-muted text-sm letter-spacing-2" href="#">
+             {{post.date_posted|date:"F d, Y"}} 
+            </a>
+            <h4 class="my-2">
+              <a class="text-dark" href="|#">
+                {{post.title}}
+              </a>
+            </h4>
+            <p class="text-gray-500 text-sm my-3">
+              {{post.content}}
+            </p>
+            <p class="my-3 text-muted text-sm">
+              {{post.author|safe}}
+            </p>
+         
+            <a class="btn btn-link pl-0"href="#">Read more<i class="fa fa-long-arrow-alt-right ml-2"></i></a> 
+          </div>
+        </div>
+      </div>
+      {% endfor %} -->
+    
+    
+    <!-- </div> -->
+    <!-- Pagination -->
+    <!-- <nav aria-label="Blog pagination">
+      <ul class="pagination justify-content-between mb-5">
+        <li class="page-item"><a class="page-link text-sm rounded" href="#"> <i class="fa fa-chevron-left mr-1"></i>Older posts</a></li>
+        <li class="page-item disabled"><a class="page-link text-sm rounded" href="#" tabindex="-1">Newer posts  <i class="fa fa-chevron-right ml-1"></i></a></li>
+      </ul>
+    </nav> -->
+  
+
+
+
+    <!-- {% for post in posts %}
+    <article class="media content-section">
+        <div class="media-body">
+          <div class="article-metadata">
+            <a class="mr-2" href="#">{{ post.author }}</a>
+            <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
+          </div>
+          <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+          <p class="article-content">{{ post.content }}</p>
+        </div>
+    </article>
+    {% endfor %} -->
+
+{% endblock content %}
+
+
