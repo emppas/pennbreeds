@@ -11,3 +11,6 @@ def home(request):
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About Page'})
 
+def members(request):
+    return render(request, 'blog/members.html', {'title': 'Welcome to Club Members Page'})
+
