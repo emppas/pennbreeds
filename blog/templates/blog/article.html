@@ -17,7 +17,8 @@
             <article class="position-relative h-100">
 
               <div class="post-img position-relative overflow-hidden">
-                <img src="/media/{{blog.image}}" class="img-fluid" alt="">
+                <!-- <img src="/media/{{blog.image}}" class="img-fluid" alt=""> -->
+                <img src="{{ post.image.url }}" class="img-fluid" alt="">
                 <span class="post-date">{{post.date_posted|date:"F d, Y"}}</span>
               </div>
 
@@ -27,11 +28,18 @@
 
                 <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">{{post.author|safe}}</span>
+                    <i class="bi bi-person"></i>
+                    <span class="ps-2">
+                      {% if post.author.get_full_name %}
+                        {{ post.author.get_full_name|safe}}
+                      {% else %}
+                        {{ post.author.username|safe }}
+                      {% endif %}
+                    </span>
                   </div>
                   <span class="px-3 text-black-50">/</span>
                   <div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
+                    <i class="bi bi-folder2"></i> <span class="ps-2">{{post.category}}</span>
                   </div>
                 </div>
 
