@@ -29,9 +29,10 @@ urlpatterns = [
     path('dashboard/', dash_views.dash, name='dash-index'),
     path('payment/', dash_views.payment, name='dash-payment'),
     path('status/', dash_views.status, name='dash-status'),
-    path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
+    # path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
     path('', include('blog.urls')),
+    path('', include('users.urls')),
 ]
 
 

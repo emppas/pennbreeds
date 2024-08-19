@@ -1,5 +1,5 @@
-from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
+from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .forms import UserRegisterForm, ProfileForm
@@ -33,6 +33,21 @@ def register(request):
         'profile_form': profile_form,
     }
     return render(request, 'users/register.html', context)
+
+def custom_login(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            if user.profile.is_approved:
+                login(request, user)
+                return redirect('blog-home')
+            else:
+                messages.error(request, 'Your account is not approved yet. Please wait for the admins approvals.')
+        else:
+            messages.error(request, 'Invalid username or password.')
+    return render(request, 'users/login.html')
 
 @login_required
 def profile(request):
