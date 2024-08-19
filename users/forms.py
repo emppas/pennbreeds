@@ -9,12 +9,14 @@ class UserRegisterForm(UserCreationForm):
     first_name = forms.Field()
     last_name = forms.Field()
     
-    
     class Meta:
         model = User
         fields = ['username', 'first_name', 'last_name', 'email', 'password1', 'password2']
         
-    class ProfileForm(forms.ModelForm):
-        class Meta:
-            model = Profile
-            fields = ['title', 'image']
+class ProfileForm(forms.ModelForm):
+    title = forms.CharField(required=True)
+    image = forms.ImageField(required=False)
+    
+    class Meta:
+        model = Profile
+        fields = ['title', 'image']
