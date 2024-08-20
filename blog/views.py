@@ -16,7 +16,7 @@ def about(request):
 
 def members(request):
     profiles = Profile.objects.all()
-    paginator = Paginator(profiles, 4)  # Show 8 profiles per page
+    paginator = Paginator(profiles, 8)  # Show 8 profiles per page
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
     
@@ -34,4 +34,4 @@ def member_search(request):
     ) | Profile.objects.filter(
         user__last_name__icontains=query
     )
-    return render(request, 'blog/member_list.html', {'profiles': profiles})
+    return render(request, 'blog/partials/_member_list.html', {'profiles': profiles})
