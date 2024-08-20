@@ -65,7 +65,7 @@
               </li> -->
             </ul>
           </li>
-          <li><a href="services.html">Events</a></li>
+          <li><a href="services.html">Event Gallery</a></li>
           <!-- <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="pricing.html">Pricing</a></li> -->
           <li><a href="{% url 'blog-members' %}">Members</a></li>
@@ -99,17 +99,7 @@
 
   <main class="main">
     <div class="row">
-        <div class="col-md-8">
-            {% if messages %}
-                {% for message in messages %}
-                    <div class="alert alert-{{ message.tags }}">
-                        {{ message }}
-                    </div>
-                {% endfor %}
-            {% endif %}
-        </div>
-
-    
+       
     {% block content %}
     
     {% endblock %}

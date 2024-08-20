@@ -2,6 +2,7 @@ from django.contrib.auth import authenticate, login
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.core.paginator import Paginator
 from .forms import UserRegisterForm, ProfileForm
 from .models import Profile
 
@@ -52,3 +53,16 @@ def custom_login(request):
 @login_required
 def profile(request):
     return render(request, 'users/profile.html')
+
+# @login_required
+# def profile_list(request):
+#     profiles = Profile.objects.all()
+#     paginator = Paginator(profiles, 8)
+    
+#     page_number = request.GET.get('page')
+#     page_obj = paginator.get_page(page_number)
+    
+#     context = {
+#         'page_obj': page_obj,
+#     }
+#     return render(request, 'blog/members.html', context)

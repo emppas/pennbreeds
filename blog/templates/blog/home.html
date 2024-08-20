@@ -6,7 +6,15 @@
 
 
   <!-- blog post on home page -->
-
+  <div class="col-md-8">
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+  </div>
   <!-- About Section -->
   <section id="about" class="about section">
 
