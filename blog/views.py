@@ -11,8 +11,18 @@ def home(request):
     }
     return render(request, 'blog/home.html', context)
 
+
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About Page'})
+
+
+def blog(request):
+    context = {
+        'title': 'Blog Page',
+        'posts': Post.objects.all()
+    }
+    return render(request, 'blog/blog.html', context)
+
 
 def members(request):
     profiles = Profile.objects.all()
