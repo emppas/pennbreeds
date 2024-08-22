@@ -1,0 +1,44 @@
+{% extends "blog/base.html" %}
+{% load static %}
+
+{% block content %}
+
+<!-- Page Title -->
+<div class="page-title accent-background">
+  <div class="container d-lg-flex justify-content-between align-items-center">
+    <h1 class="mb-2 mb-lg-0">Execo Members</h1>  
+  </div>
+</div><!-- End Page Title -->
+
+<!-- Team Section -->
+<section id="team" class="team section">
+  <div class="container">
+    <div class="row gy-4" id="memberList">
+      {% for execo in execos %}
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="{{ execo.user.profile.image.url }}" class="img-fluid" alt="{{ execo.user.username }}">
+              <div class="social">
+                <span>{{ execo.title }}</span>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>{{ execo.user.first_name }} {{ execo.user.last_name }}</h4>
+              
+              <p>{{ execo.position }}</p>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+      {% empty %}
+        <p>No Execo members found.</p>
+      {% endfor %}
+    </div>
+
+    <!-- Horizontal Line -->
+    <hr class="my-4"> <!-- You can adjust the margin with 'my-4' for margin-top and margin-bottom -->
+
+  </div>
+</section><!-- /Team Section -->
+
+{% endblock content %}

@@ -1409,7 +1409,8 @@ section,
 
 .team .team-member .member-info h4 {
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
+  margin-top: 0px;
   font-size: 18px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }

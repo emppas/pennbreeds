@@ -30,23 +30,12 @@
                 <div class="member-img">
                   <img src="{{ profile.image.url }}" class="img-fluid" alt="{{ profile.user.username }}">
                   <div class="social">
-                    {% if profile.twitter_url %}
-                      <a href="{{ profile.twitter_url }}"><i class="bi bi-twitter"></i></a>
-                    {% endif %}
-                    {% if profile.facebook_url %}
-                      <a href="{{ profile.facebook_url }}"><i class="bi bi-facebook"></i></a>
-                    {% endif %}
-                    {% if profile.instagram_url %}
-                      <a href="{{ profile.instagram_url }}"><i class="bi bi-instagram"></i></a>
-                    {% endif %}
-                    {% if profile.linkedin_url %}
-                      <a href="{{ profile.linkedin_url }}"><i class="bi bi-linkedin"></i></a>
-                    {% endif %}
+                    <span>{{ profile.title }}</span>
                   </div>
                 </div>
                 <div class="member-info">
                   <h4>{{ profile.user.first_name }} {{ profile.user.last_name }}</h4>
-                  <span>{{ profile.title }}</span>
+                 
                 </div>
               </div>
             </div><!-- End Team Member -->
