@@ -16,3 +16,5 @@ soupsieve==2.5
 sqlparse==0.5.1
 tzdata==2024.1
 virtualenv==20.26.3
+whitenoise==6.6.0 #must be in requirements.txt
+gunicorn==21.2.0 #must be in requirements.txt
