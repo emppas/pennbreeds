@@ -80,6 +80,12 @@ TEMPLATES = [
 WSGI_APPLICATION = 'blog_website.wsgi.application'
 
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://pennbreedsclub.org',
+    # Add any other domains you trust
+]
+
+
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
