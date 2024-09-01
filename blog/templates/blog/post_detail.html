@@ -1,0 +1,85 @@
+{% extends "blog/base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+        <div class="container d-lg-flex justify-content-between align-items-center">
+          <h1 class="mb-2 mb-lg-0">Blog Details</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Blog Details</li>
+            </ol>
+          </nav>
+        </div>
+      </div><!-- End Page Title -->
+  
+      <div class="container">
+        <div class="row">
+  
+          <div class="col-lg-8">
+  
+            <!-- Blog Details Section -->
+            <section id="blog-details" class="blog-details section">
+              <div class="container">
+  
+                <article class="article">
+  
+                  <div class="post-img">
+                    <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                  Image</div>
+  
+                  <h2 class="title">Title</h2>
+  
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">user</a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2020-01-01">post_date</time></a></li>
+                      <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">Comments</a></li>
+                    </ul>
+                  </div><!-- End meta top -->
+  
+  
+  
+                  <div class="content">
+                    <p>
+                      content 1
+                    </p>
+  
+                    
+                    <blockquote>
+                      <p>
+                        PunchLine like quote
+                      </p>
+                    </blockquote>
+  
+                    <p>
+                      content 2
+                    </p>
+  
+                    <h3>Sub Title 1</h3>
+                    <p>
+                      content 3
+                    </p>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="">
+  
+                    <h3>conclusion</h3>
+                    <p>
+                      conclusion content
+                    </p>
+                   
+  
+                  </div><!-- End post content -->
+  
+  
+  
+         
+                </article>
+  
+              </div>
+            </section><!-- /Blog Details Section -->
+        
+
+{% endblock content %}

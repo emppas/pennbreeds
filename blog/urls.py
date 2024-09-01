@@ -8,7 +8,6 @@ urlpatterns = [
     path('members/', views.members, name='blog-members'),
     path('search/', views.member_search, name='member-search'),
     path('blog/', views.blog, name='blog-blog'),
-    path('execos/', views.execo_list, name='blog-execos')
-    
+    path('execos/', views.execo_list, name='blog-execos'),
     
 ]

@@ -25,7 +25,7 @@ def blog(request):
 
 
 def members(request):
-    profiles = Profile.objects.all().order_by('id')[1:]
+    profiles = Profile.objects.all().order_by('id')[2:]
     paginator = Paginator(profiles, 8)  # Show 8 profiles per page
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
@@ -52,3 +52,16 @@ def execo_list(request):
         'execos' : execos,
     }
     return render(request, 'blog/execo_list.html', context)
+
+def blog_post(request):
+    posts_list = Post.objects.all()
+    paginator = Paginator(posts_list, 6)
+    
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    
+    context = {
+        'title': 'Welcome to Blog Post Page',
+        'posts': page_obj,
+    }
+    return render(request, 'blog/article.html', context)
