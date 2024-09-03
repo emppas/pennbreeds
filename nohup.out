@@ -10,3 +10,477 @@
 [2024-08-29 09:19:34 +0000] [32790] [ERROR] Connection in use: ('0.0.0.0', 8000)
 [2024-08-29 09:19:34 +0000] [32790] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
 [2024-08-29 09:19:35 +0000] [32790] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-09-02 12:27:50 +0000] [76728] [INFO] Starting gunicorn 23.0.0
+[2024-09-02 12:27:50 +0000] [76728] [INFO] Listening at: http://0.0.0.0:8000 (76728)
+[2024-09-02 12:27:50 +0000] [76728] [INFO] Using worker: sync
+[2024-09-02 12:27:50 +0000] [76729] [INFO] Booting worker with pid: 76729
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /.vscode/sftp.json
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /blog/blog-details.html
+Not Found: /blog/post-details.html
+[2024-09-02 12:53:53 +0000] [76728] [INFO] Handling signal: winch
+Not Found: /post-details.html
+Not Found: /blog/post-details
+Not Found: /blog/post_details
+[2024-09-02 12:55:21 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 12:55:37 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 12:55:50 +0000] [76728] [INFO] Handling signal: winch
+Not Found: /blog/post_details
+[2024-09-02 13:02:46 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:03:12 +0000] [76728] [INFO] Handling signal: winch
+Not Found: /static/blog/vendor/php-email-form/validate.js
+[2024-09-02 13:04:47 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:07:04 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:12:21 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:13:06 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:13:46 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:14:05 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:14:05 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:14:05 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:14:05 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:14:05 +0000] [76728] [INFO] Handling signal: winch
+[2024-09-02 13:22:24 +0000] [76728] [INFO] Handling signal: int
+[2024-09-02 13:22:24 +0000] [76729] [INFO] Worker exiting (pid: 76729)
+[2024-09-02 13:22:25 +0000] [76728] [INFO] Shutting down: Master
+[2024-09-02 13:22:36 +0000] [77772] [INFO] Starting gunicorn 23.0.0
+[2024-09-02 13:22:36 +0000] [77772] [INFO] Listening at: http://0.0.0.0:8000 (77772)
+[2024-09-02 13:22:36 +0000] [77772] [INFO] Using worker: sync
+[2024-09-02 13:22:36 +0000] [77773] [INFO] Booting worker with pid: 77773
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+[2024-09-02 13:25:30 +0000] [77772] [INFO] Handling signal: winch
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+[2024-09-02 13:34:27 +0000] [77772] [INFO] Handling signal: int
+[2024-09-02 13:34:27 +0000] [77773] [INFO] Worker exiting (pid: 77773)
+[2024-09-02 13:34:27 +0000] [77772] [INFO] Shutting down: Master
+[2024-09-02 13:34:35 +0000] [78021] [INFO] Starting gunicorn 23.0.0
+[2024-09-02 13:34:35 +0000] [78021] [INFO] Listening at: http://0.0.0.0:8000 (78021)
+[2024-09-02 13:34:35 +0000] [78021] [INFO] Using worker: sync
+[2024-09-02 13:34:35 +0000] [78022] [INFO] Booting worker with pid: 78022
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /.well-known/acme-challenge/-D043CR342B641WO2BO-_VLE4CCJKTDW
+Not Found: /config/php.ini
+Not Found: /index.html
+Not Found: /phpinfo.php
+Not Found: /test.php
+Not Found: /config.properties
+Not Found: /config
+Not Found: /main.js
+Not Found: /phpinfo
+Not Found: /test
+Not Found: /.aws/credentials
+Not Found: /app_dev.php/_profiler/phpinfo
+Not Found: /app/etc/env.php
+Not Found: /index.php
+Not Found: /config/constants.js
+Not Found: /secured/phpinfo.php
+Not Found: /application.properties
+Not Found: /config.ini
+Not Found: /config/config.php
+Not Found: /index.php/phpinfo
+Not Found: /.profile
+Not Found: /appsettings.json
+Not Found: /config/index.js
+Not Found: /public/js/main.js
+Not Found: /info.php
+Not Found: /config/config.js
+Not Found: /config.js
+Not Found: /gulpfile.js
+Not Found: /application-dev.properties
+Not Found: /config/default.json
+Not Found: /README.md
+Not Found: /info
+Not Found: /app.js
+Not Found: /env.json
+Not Found: /config/config.ini
+Not Found: /config/environments/production.rb
+Not Found: /environment.ts
+Not Found: /resources/application.conf
+Not Found: /config/aws.json
+Not Found: /app.py
+Not Found: /application/config/constants.php/
+Not Found: /debug/default
+Not Found: /src/config.js
+Not Found: /config/application.yml
+Not Found: /config/services.yaml
+Not Found: /dev/phpinfo.php
+Not Found: /api/config/tsconfig.json
+Not Found: /static/.gitlab-ci.yml
+Not Found: /php_info.php
+Not Found: /server.js
+Not Found: /config/development.json
+Not Found: /test2.php
+Not Found: /test1.php
+Not Found: /wp-config.php
+Not Found: /config/config.json
+Not Found: /frontend_dev.php/$
+Not Found: /staticfiles
+Not Found: /_profiler/phpinfo
+Not Found: /storage/logs/laravel.log
+Not Found: /phpversion.php
+Not Found: /Dockerfile
+Not Found: /settings.json
+Not Found: /src/main/resources/appsettings.yml
+Not Found: /configs/application.ini
+Not Found: /js/config.js
+Not Found: /login/index.php
+Not Found: /src/main/resources/application.properties
+Not Found: /install/index.php
+Not Found: /config.php
+Not Found: /products/.gitlab-ci.yml
+Not Found: /manifest.json
+Not Found: /ecosystem.config.js
+Not Found: /device/device.js
+Not Found: /php-info.php
+Not Found: /config.json
+Not Found: /php.php
+Forbidden (CSRF cookie not set.): /
+[2024-09-02 13:39:39 +0000] [78021] [INFO] Handling signal: int
+[2024-09-02 13:39:39 +0000] [78022] [INFO] Worker exiting (pid: 78022)
+[2024-09-02 13:39:39 +0000] [78021] [INFO] Shutting down: Master
+[2024-09-02 13:39:56 +0000] [78181] [INFO] Starting gunicorn 23.0.0
+[2024-09-02 13:39:56 +0000] [78181] [INFO] Listening at: http://0.0.0.0:8000 (78181)
+[2024-09-02 13:39:56 +0000] [78181] [INFO] Using worker: sync
+[2024-09-02 13:39:56 +0000] [78182] [INFO] Booting worker with pid: 78182
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+[2024-09-02 13:42:19 +0000] [78181] [INFO] Handling signal: int
+[2024-09-02 13:42:19 +0000] [78182] [INFO] Worker exiting (pid: 78182)
+[2024-09-02 13:42:19 +0000] [78181] [INFO] Shutting down: Master
+[2024-09-02 13:43:44 +0000] [78543] [INFO] Starting gunicorn 23.0.0
+[2024-09-02 13:43:44 +0000] [78543] [INFO] Listening at: http://0.0.0.0:8000 (78543)
+[2024-09-02 13:43:44 +0000] [78543] [INFO] Using worker: sync
+[2024-09-02 13:43:44 +0000] [78544] [INFO] Booting worker with pid: 78544
+Not Found: /static/blog/vendor/php-email-form/validate.js
+[2024-09-02 13:43:56 +0000] [78543] [INFO] Handling signal: int
+[2024-09-02 13:43:56 +0000] [78544] [INFO] Worker exiting (pid: 78544)
+[2024-09-02 13:43:56 +0000] [78543] [INFO] Shutting down: Master
+[2024-09-02 13:46:21 +0000] [78789] [INFO] Starting gunicorn 23.0.0
+[2024-09-02 13:46:21 +0000] [78789] [INFO] Listening at: http://0.0.0.0:8000 (78789)
+[2024-09-02 13:46:21 +0000] [78789] [INFO] Using worker: sync
+[2024-09-02 13:46:21 +0000] [78790] [INFO] Booting worker with pid: 78790
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+[2024-09-02 13:49:12 +0000] [78789] [INFO] Handling signal: int
+[2024-09-02 13:49:12 +0000] [78790] [INFO] Worker exiting (pid: 78790)
+[2024-09-02 13:49:12 +0000] [78789] [INFO] Shutting down: Master
+[2024-09-02 13:49:22 +0000] [78938] [INFO] Starting gunicorn 23.0.0
+[2024-09-02 13:49:22 +0000] [78938] [INFO] Listening at: http://0.0.0.0:8000 (78938)
+[2024-09-02 13:49:22 +0000] [78938] [INFO] Using worker: sync
+[2024-09-02 13:49:22 +0000] [78940] [INFO] Booting worker with pid: 78940
+Not Found: /static/blog/vendor/php-email-form/validate.js
+[2024-09-02 13:50:45 +0000] [78938] [INFO] Handling signal: int
+[2024-09-02 13:50:45 +0000] [78940] [INFO] Worker exiting (pid: 78940)
+[2024-09-02 13:50:45 +0000] [78938] [INFO] Shutting down: Master
+[2024-09-02 13:50:48 +0000] [79044] [INFO] Starting gunicorn 23.0.0
+[2024-09-02 13:50:48 +0000] [79044] [INFO] Listening at: http://0.0.0.0:8000 (79044)
+[2024-09-02 13:50:48 +0000] [79044] [INFO] Using worker: sync
+[2024-09-02 13:50:48 +0000] [79045] [INFO] Booting worker with pid: 79045
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /blog/blog-details.html
+Not Found: /static/blog/vendor/php-email-form/validate.js
+[2024-09-02 13:55:51 +0000] [79044] [INFO] Handling signal: int
+[2024-09-02 13:55:52 +0000] [79045] [INFO] Worker exiting (pid: 79045)
+[2024-09-02 13:55:52 +0000] [79044] [INFO] Shutting down: Master
+[2024-09-02 13:56:04 +0000] [79405] [INFO] Starting gunicorn 23.0.0
+[2024-09-02 13:56:04 +0000] [79405] [INFO] Listening at: http://0.0.0.0:8000 (79405)
+[2024-09-02 13:56:04 +0000] [79405] [INFO] Using worker: sync
+[2024-09-02 13:56:04 +0000] [79406] [INFO] Booting worker with pid: 79406
+Not Found: /static/blog/vendor/php-email-form/validate.js
+[2024-09-02 13:58:45 +0000] [79405] [INFO] Handling signal: winch
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: /images/Web Upload for Hon. Dr. Tamunosis G. Jaja's banquet ceremony -2/11.jpg
+Not Found: /.well-known/acme-challenge/9TD301RYY6A5ERXAD9UEBM_L9SF4DK4I
+Not Found: /robots.txt
+[2024-09-02 17:23:59 +0000] [79405] [INFO] Handling signal: hup
+[2024-09-02 17:23:59 +0000] [79405] [INFO] Hang up: Master
+[2024-09-02 17:23:59 +0000] [79405] [ERROR] Worker (pid:79406) was sent SIGHUP!
+[2024-09-02 17:23:59 +0000] [81524] [INFO] Booting worker with pid: 81524
+Not Found: /portfolio.html
+Not Found: /wordpress
+Not Found: /wp
+Not Found: /bc
+Not Found: /bk
+Not Found: /backup
+Not Found: /old
+Not Found: /new
+Not Found: /main
+Not Found: /home
+Not Found: /portfolio.html
+Not Found: /members/pricing.html
+Not Found: /members/portfolio.html
+Not Found: /robots.txt
+Not Found: /ads.txt
+Not Found: /.well-known/acme-challenge/96V8RE5A62QWRZLFISN0HTC711YGPI5C
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Not Found: /index.html
+[2024-09-02 20:50:35 +0000] [81524] [WARNING] Invalid request from ip=52.83.216.9: Invalid HTTP request line: ''
+Not Found: /nice ports,/Trinity.txt.bak
+[2024-09-02 20:50:42 +0000] [81524] [WARNING] Invalid request from ip=52.83.216.9: Invalid HTTP method: '\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03\ngoogle.com\x00PGET'
+[2024-09-02 20:50:48 +0000] [81524] [WARNING] Invalid request from ip=52.83.216.9: Invalid HTTP Version: 'RTSP/1.0'
+[2024-09-02 20:51:05 +0000] [81524] [WARNING] Invalid request from ip=52.83.216.9: Invalid HTTP request line: 'HELP'
+[2024-09-02 20:51:10 +0000] [81524] [WARNING] Invalid request from ip=52.83.216.9: Invalid HTTP request line: '\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie: mstshash=nmap'
+[2024-09-02 20:51:42 +0000] [81524] [WARNING] Invalid request from ip=52.83.216.9: Invalid HTTP Version: 'SIP/2.0'
+Not Found: /sdk
+Not Found: /.git/HEAD
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Not Found: /sdk
+Forbidden (CSRF cookie not set.): /
+Not Found: /robots.txt
+Not Found: /80
+Not Found: /nmaplowercheck1725310366
+Not Found: /.git/HEAD
+Forbidden (CSRF cookie not set.): /
+Not Found: /nmaplowercheck1725310366
+Forbidden (CSRF cookie not set.): /
+Not Found: /evox/about
+Forbidden (CSRF cookie not set.): /
+Not Found: /HNAP1
+Forbidden (CSRF cookie not set.): /
+Not Found: /evox/about
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /HNAP1
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Forbidden (CSRF cookie not set.): /
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: /.well-known/acme-challenge/XISN-X4I1QCOVKGWYZ7THB4Z700MKL89
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /config.json
+Not Found: /.env
+Not Found: /robots.txt
+Not Found: /sport_activities_galerry/pages/IMG00147-20110903-1153.htm
+Not Found: /.well-known/acme-challenge/ZG0T2830ZX9E6YAWTMHI-5ZDSEPOL8BQ
+Not Found: /_profiler/phpinfo
+Not Found: /favicon.ico
+Not Found: //wp-includes/wlwmanifest.xml
+Not Found: //xmlrpc.php
+Not Found: //blog/wp-includes/wlwmanifest.xml
+Not Found: //web/wp-includes/wlwmanifest.xml
+Not Found: //wordpress/wp-includes/wlwmanifest.xml
+Not Found: //website/wp-includes/wlwmanifest.xml
+Not Found: //wp/wp-includes/wlwmanifest.xml
+Not Found: //news/wp-includes/wlwmanifest.xml
+Not Found: //2018/wp-includes/wlwmanifest.xml
+Not Found: //2019/wp-includes/wlwmanifest.xml
+Not Found: //shop/wp-includes/wlwmanifest.xml
+Not Found: //wp1/wp-includes/wlwmanifest.xml
+Not Found: //test/wp-includes/wlwmanifest.xml
+Not Found: //media/wp-includes/wlwmanifest.xml
+Not Found: //wp2/wp-includes/wlwmanifest.xml
+Not Found: //site/wp-includes/wlwmanifest.xml
+Not Found: //cms/wp-includes/wlwmanifest.xml
+Not Found: //sito/wp-includes/wlwmanifest.xml
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: /.well-known/acme-challenge/U_9YPG1QDX_VVQSYDVU1KYBJ2UGU2XSU
+Not Found: /.env
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: /.well-known/acme-challenge/JG-VAW3Y0FL4IW-Z5YQPTHQLFZKUYEBJ
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /vendor/laravel-filemanager/js/stand-alone-button.js
+Not Found: /images/Prostate cancer awareness program0012.jpg
+Not Found: /wp-includes/css/buttons.css
+Not Found: /media/system/js/core.js
+Not Found: /.well-known/acme-challenge/OZ6YLQ6GRHLK8-W0Y1MEH01FGZWYXYTB
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /blog-details.html
+Not Found: /favicon.ico
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Forbidden (CSRF token from POST incorrect.): /login/
+Forbidden (CSRF token from POST incorrect.): /login/
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/dashboard/vendor/boxicons/css/boxicons.min.css
+Not Found: /static/dashboard/vendor/quill/quill.snow.css
+Not Found: /static/dashboard/vendor/quill/quill.bubble.css
+Not Found: /static/dashboard/vendor/remixicon/remixicon.css
+Not Found: /static/dashboard/vendor/simple-datatables/style.css
+Not Found: /dashboard/dashboard/img/product-1.jpg
+Not Found: /dashboard/dashboard/img/product-2.jpg
+Not Found: /dashboard/dashboard/img/product-3.jpg
+Not Found: /static/dashboard/vendor/apexcharts/apexcharts.min.js
+Not Found: /static/dashboard/vendor/chart.js/chart.umd.js
+Not Found: /static/dashboard/vendor/echarts/echarts.min.js
+Not Found: /static/dashboard/vendor/simple-datatables/simple-datatables.js
+Not Found: /static/dashboard/vendor/quill/quill.js
+Not Found: /static/dashboard/vendor/tinymce/tinymce.min.js
+Not Found: /static/dashboard/vendor/php-email-form/validate.js
+Not Found: /dashboard/dashboard/img/product-4.jpg
+Not Found: /dashboard/dashboard/img/product-5.jpg
+Not Found: /static/dashboard/img/news-1.jpg
+Not Found: /dashboard/dashboard/img/news-4.jpg
+Not Found: /dashboard/dashboard/img/news-2.jpg
+Not Found: /dashboard/dashboard/img/news-3.jpg
+Not Found: /dashboard/dashboard/img/news-5.jpg
+Not Found: /robots.txt
+Not Found: /blog-details.html
+Not Found: /wp-includes/css/buttons.css
+Not Found: /media/system/js/core.js
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: //bootstrapmade.c
+Not Found: //checkengineer.c
+Not Found: //fonts.googleapis.c
+Not Found: //fonts.gstatic.c
+Not Found: /static/blog/css/main.cs
+Not Found: /static/blog/vendor/aos/aos.cs
+Not Found: /static/blog/vendor/bootstrap-icons/bootstrap-icons.cs
+Not Found: /static/blog/vendor/bootstrap/css/bootstrap.min.cs
+Not Found: /static/blog/vendor/glightbox/css/glightbox.min.cs
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/swiper/swiper-bundle.min.cs
+Not Found: //checkengineer.c
+Not Found: //bootstrapmade.c
+Not Found: //fonts.googleapis.c
+Not Found: //fonts.gstatic.c
+Not Found: /static/blog/vendor/aos/aos.cs
+Not Found: /static/blog/css/main.cs
+Not Found: /static/blog/vendor/bootstrap/css/bootstrap.min.cs
+Not Found: /static/blog/vendor/bootstrap-icons/bootstrap-icons.cs
+Not Found: /static/blog/vendor/glightbox/css/glightbox.min.cs
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/blog/vendor/swiper/swiper-bundle.min.cs
+Not Found: /blog-details.html
+Not Found: /blog-details.html
+Not Found: /favicon.ico
+Not Found: /.env
+Not Found: /favicon.ico
+Not Found: /443
+Not Found: /elfinder/connector
+Not Found: /images/Web Upload for Hon. Dr. Tamunosis G. Jaja's banquet ceremony -2/6.jpg
+Not Found: /.env
+Not Found: /wordpress
+Not Found: /wp
+Not Found: /bc
+Not Found: /bk
+Not Found: /backup
+Not Found: /old
+Not Found: /new
+Not Found: /main
+Not Found: /home
+Not Found: /.well-known/acme-challenge/5097Z59RJ2_YKMEE_ZIHUT19PCTIQ6M2
+Not Found: /robots.txt
+Not Found: /favicon.ico
+[2024-09-03 16:05:36 +0000] [81524] [WARNING] Invalid request from ip=167.94.146.57: Invalid HTTP Version: (2, 0)
+Not Found: /.env
+Forbidden (CSRF cookie not set.): /
+Not Found: /.well-known/acme-challenge/EWAJHQ38UAL3XWGRIVAM_ZMY175P6YSR
+Not Found: //wp-includes/ID3/license.txt
+Not Found: //feed/
+Not Found: //xmlrpc.php
+Not Found: //blog/wp-includes/wlwmanifest.xml
+Not Found: //web/wp-includes/wlwmanifest.xml
+Not Found: //wordpress/wp-includes/wlwmanifest.xml
+Not Found: //wp/wp-includes/wlwmanifest.xml
+Not Found: //2020/wp-includes/wlwmanifest.xml
+Not Found: //2019/wp-includes/wlwmanifest.xml
+Not Found: //2021/wp-includes/wlwmanifest.xml
+Not Found: //shop/wp-includes/wlwmanifest.xml
+Not Found: //wp1/wp-includes/wlwmanifest.xml
+Not Found: //test/wp-includes/wlwmanifest.xml
+Not Found: //site/wp-includes/wlwmanifest.xml
+Not Found: //cms/wp-includes/wlwmanifest.xml
+Not Found: /hello.world
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+Not Found: /vendor/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /vendor/phpunit/Util/PHP/eval-stdin.php
+Not Found: /vendor/phpunit/phpunit/LICENSE/eval-stdin.php
+Not Found: /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /phpunit/phpunit/Util/PHP/eval-stdin.php
+Not Found: /phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /phpunit/Util/PHP/eval-stdin.php
+Not Found: /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /lib/phpunit/phpunit/Util/PHP/eval-stdin.php
+Not Found: /lib/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /lib/phpunit/Util/PHP/eval-stdin.php
+Not Found: /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Not Found: /index.php
+Not Found: /public/index.php
+Not Found: /index.php
+Not Found: /index.php
+Not Found: /static/blog/vendor/php-email-form/validate.js
+Not Found: /static/dashboard/vendor/remixicon/remixicon.css
+Not Found: /static/dashboard/vendor/simple-datatables/style.css
+Not Found: /static/dashboard/vendor/quill/quill.bubble.css
+Not Found: /static/dashboard/vendor/quill/quill.snow.css
+Not Found: /static/dashboard/vendor/boxicons/css/boxicons.min.css
+Not Found: /dashboard/dashboard/img/product-2.jpg
+Not Found: /static/dashboard/vendor/apexcharts/apexcharts.min.js
+Not Found: /dashboard/dashboard/img/product-1.jpg
+Not Found: /dashboard/dashboard/img/product-3.jpg
+Not Found: /static/dashboard/vendor/chart.js/chart.umd.js
+Not Found: /static/dashboard/vendor/quill/quill.js
+Not Found: /static/dashboard/vendor/echarts/echarts.min.js
+Not Found: /static/dashboard/vendor/simple-datatables/simple-datatables.js
+Not Found: /static/dashboard/vendor/tinymce/tinymce.min.js
+Not Found: /static/dashboard/img/news-1.jpg
+Not Found: /dashboard/dashboard/img/news-4.jpg
+Not Found: /dashboard/dashboard/img/news-3.jpg
+Not Found: /dashboard/dashboard/img/news-2.jpg
+Not Found: /static/dashboard/vendor/php-email-form/validate.js
+Not Found: /dashboard/dashboard/img/product-4.jpg
+Not Found: /dashboard/dashboard/img/product-5.jpg
+Not Found: /dashboard/dashboard/img/news-5.jpg

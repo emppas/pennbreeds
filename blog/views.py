@@ -53,15 +53,20 @@ def execo_list(request):
     }
     return render(request, 'blog/execo_list.html', context)
 
-def blog_post(request):
-    posts_list = Post.objects.all()
-    paginator = Paginator(posts_list, 6)
+# def blog_post(request):
+#     posts_list = Post.objects.all()
+#     paginator = Paginator(posts_list, 6)
     
-    page_number = request.GET.get('page')
-    page_obj = paginator.get_page(page_number)
+#     page_number = request.GET.get('page')
+#     page_obj = paginator.get_page(page_number)
     
-    context = {
-        'title': 'Welcome to Blog Post Page',
-        'posts': page_obj,
-    }
-    return render(request, 'blog/article.html', context)
+#     context = {
+#         'title': 'Welcome to Blog Post Page',
+#         'page_obj': page_obj,
+#     }
+#     return render(request, 'blog/article.html', context)
+
+
+def post_detail(request):
+     return render(request, 'blog/post_detail.html', {'title': 'Post Details Page'})
+    
