@@ -25,7 +25,7 @@ def blog(request):
 
 
 def members(request):
-    profiles = Profile.objects.all().order_by('id')[2:]
+    profiles = Profile.objects.all().order_by('id')[1:]
     paginator = Paginator(profiles, 8)  # Show 8 profiles per page
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)

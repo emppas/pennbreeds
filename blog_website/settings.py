@@ -38,6 +38,7 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
+    'gallery.apps.GalleryConfig',
     'dashboard.apps.DashboardConfig',
     'crispy_forms',
     'django.contrib.admin',
