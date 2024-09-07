@@ -18,12 +18,13 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
         <div class="container">
-            <div class="isotope-layout" data-default-filter="*" data-layout="masonry">
+            <div class="isotope-layout" data-default-filter=".filter-{{ default_category|slugify }}" data-layout="masonry">
                 <!-- Portfolio Filters -->
                 <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">All</li>
                     {% for category in categories %}
-                        <li data-filter=".filter-{{ category|slugify }}">{{ category }}</li>
+                        <li data-filter=".filter-{{ category|slugify }}" {% if category == default_category %}class="filter-active"{% endif %}>
+                            {{ category }}
+                        </li>
                     {% endfor %}
                 </ul><!-- End Portfolio Filters -->
 
@@ -31,8 +32,7 @@
                     <!-- Category Images -->
                     {% for category, images in category_images.items %}
                         {% for image in images %}
-                            <!-- For the "All" tab, display only the first image from each category -->
-                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-{{ category|slugify }} {% if forloop.first %} filter-all{% endif %}">
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-{{ category|slugify }}">
                                 <img src="{{ image.image.url }}" class="img-fluid" alt="{{ image.caption }}">
                                 <div class="portfolio-info">
                                     <h4>{{ category }}</h4>
@@ -57,8 +57,7 @@
         // Initialize Isotope
         var iso = new Isotope('.isotope-container', {
             itemSelector: '.portfolio-item',
-            layoutMode: 'masonry',
-            filter: '.filter-all' // Show only first image per category on page load
+            layoutMode: 'masonry'
         });
 
         // Filter items on click
