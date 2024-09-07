@@ -12,7 +12,7 @@ def category_list(request):
         category_images[category] = images
     
     # Set the default category
-    default_category = categories[0] if categories else None
+    default_category = categories[3] if categories else None
     
     return render(request, 'gallery/category_list.html', {
         'categories': categories,
