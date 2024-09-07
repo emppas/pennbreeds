@@ -24,3 +24,19 @@ class Post(models.Model):
     
     def __str__(self):
         return self.title
+
+
+class Event_up(models.Model):
+    STATUS_CHOICES = [
+        ('Scheduled', 'Scheduled'),
+        ('Completed', 'Completed'),
+        ('Cancelled', 'Cancelled'),
+    ]
+    
+    name = models.CharField(max_length=60)
+    date = models.DateField()
+    venue = models.CharField(max_length=200)
+    status = models.CharField(max_length=50, choices=STATUS_CHOICES, default='Scheduled')
+    
+    def __str__(self):
+        return f"{self.name} at {self.venue} on {self.date.strftime('%Y-%m-%d')} - {self.status}"
