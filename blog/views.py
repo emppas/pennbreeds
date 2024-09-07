@@ -15,6 +15,9 @@ def home(request):
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About Page'})
 
+def contact(request):
+    return render(request, 'blog/contact.html', {'title': 'Contact Us!'})
+
 
 def blog(request):
     context = {
@@ -52,19 +55,6 @@ def execo_list(request):
         'execos' : execos,
     }
     return render(request, 'blog/execo_list.html', context)
-
-# def blog_post(request):
-#     posts_list = Post.objects.all()
-#     paginator = Paginator(posts_list, 6)
-    
-#     page_number = request.GET.get('page')
-#     page_obj = paginator.get_page(page_number)
-    
-#     context = {
-#         'title': 'Welcome to Blog Post Page',
-#         'page_obj': page_obj,
-#     }
-#     return render(request, 'blog/article.html', context)
 
 
 def post_detail(request):
