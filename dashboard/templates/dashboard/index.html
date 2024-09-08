@@ -31,24 +31,35 @@
               <div class="card-body pb-0">
                 <h5 class="card-title">Upcoming Event/Meetings<span> | Calender</span></h5>
 
-                <table class="table table-borderless">
+                
+                <table class="table table-borderless datatable">
                   <thead>
                     <tr>
                       <th scope="col">Date</th>
                       <th scope="col">Event/Meeting</th>
-                      <th scope="col">Venue</th>
+                      <th scope="col">Venue</th>                      
+                      <th scope="col">Status</th>
                     </tr>
                   </thead>
-                  {% for event_up in upcoming_events %}
+                  {% for events in upcoming_events %}
                   <tbody>
                     <tr>
-                      <th scope="row"><a href="#"><img src="dashboard/img/product-1.jpg" alt=""></a></th>
-                      <td><a href="#" class="text-primary fw-bold">{{event_up.name}}</a></td>
-                      <td>$64</td>  
-                      <td>$64</td>                    
+                      <th scope="row">{{events.date}}</th>
+                      <td>{{events.name}}</td>
+                      <td>{{events.venue}}</td>                 
+                      <td>                       
+                        {% if events.status == 'Scheduled' %}
+                        <span class="badge bg-success">{{events.status}}</span>
+                        {% elif events.status == 'Completed' %}
+                        <span class="badge bg-info">{{events.status}}</span>
+                        {% elif events.status == 'Cancelled' %}
+                        <span class="badge bg-danger">{{events.status}}</span>
+                        {% else %}
+                        <span class="badge bg-secondary">Unknown</span>
+                        {% endif %}
+                      </td>            
                     </tr>
-                  
-                  </tbody>
+                  </tbody>                
                   {% empty %}
                   <tr>
                       <td colspan="3">No upcoming events.</td>
@@ -66,17 +77,13 @@
             <div class="card info-card sales-card">
            
               <div class="card-body">
-                <h5 class="card-title">Financial <span>| Status</span></h5>
+                <h5 class="card-title">Update Profile <span>| Status</span></h5>
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                    <i class="bi bi-cart"></i>
+                    <i class="bi bi-person"></i>
                   </div>
-                  <div class="ps-3">
-                    <h6>145</h6>
-                    <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
-                  </div>
+                
                 </div>
               </div>
 
@@ -88,15 +95,16 @@
             <div class="card info-card revenue-card">
 
               <div class="card-body">
-                <h5 class="card-title">Update Profile</h5>
+                {% if financial_record %}
+                <h5 class="card-title">Financial Summary</h5>
 
                 <div class="d-flex align-items-center">
                   <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                    <i class="bi bi-currency-dollar"></i>
+                    <i class="bi bi-currency-naira">₦</i>
                   </div>
                   <div class="ps-3">
-                    <h6>$3,264</h6>
-                    <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
+                    <h6>{{financial_record.overall_debt}}</h6>
+                    <span class="text-success small pt-1 fw-bold">PayNow</span>
 
                   </div>
                 </div>
@@ -116,21 +124,39 @@
                   <thead>
                     <tr>
                       <th scope="col">#</th>
-                      <th scope="col">Customer</th>
-                      <th scope="col">Product</th>
-                      <th scope="col">Price</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Debt</th>
+                      <th scope="col">Amount Due</th>
                       <th scope="col">Status</th>
                     </tr>
                   </thead>
                   <tbody>
+                   
                     <tr>
-                      <th scope="row"><a href="#">#2457</a></th>
-                      <td>Brandon Jacob</td>
-                      <td><a href="#" class="text-primary">At praesentium minu</a></td>
-                      <td>$64</td>
-                      <td><span class="badge bg-success">Approved</span></td>
+                        <th scope="row"><a href="#">{{ financial_record.last_payment_date }}</a></th>
+                        <td>{{ first_name }} {{ last_name }}</td>
+                        <td>{{ financial_record.balance_owing }}</td>
+                        <td>${{ financial_record.membership_fee_due }}</td>
+                        <td>
+                            {% if financial_record.payment_status == 'Paid' %}
+                                <span class="badge bg-success">Paid</span>
+                            {% elif financial_record.payment_status == 'Unpaid' %}
+                                <span class="badge bg-danger">Unpaid</span>
+                            {% elif financial_record.payment_status == 'Pending' %}
+                                <span class="badge bg-warning">Pending</span>
+                            {% else %}
+                                <span class="badge bg-secondary">Unknown</span>
+                            {% endif %}
+                        </td>
                     </tr>
+                {% else %}
                     <tr>
+                        <td colspan="5">
+                            <span class="text-success small pt-1 fw-bold">No record</span>
+                        </td>
+                    </tr>
+                {% endif %}
+                    <!-- <tr>
                       <th scope="row"><a href="#">#2147</a></th>
                       <td>Bridie Kessler</td>
                       <td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td>
@@ -157,7 +183,7 @@
                       <td><a href="#" class="text-primary">Sunt similique distinctio</a></td>
                       <td>$165</td>
                       <td><span class="badge bg-success">Approved</span></td>
-                    </tr>
+                    </tr> -->
                   </tbody>
                 </table>
 

@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 from .models import Post
 from users.models import Profile, Execo
 from django.core.paginator import Paginator
@@ -60,3 +61,30 @@ def execo_list(request):
 def post_detail(request):
      return render(request, 'blog/post_detail.html', {'title': 'Post Details Page'})
     
+
+@login_required
+def create_post(request):
+    if request.method == 'POST':
+        title = request.POST.get('title')
+        content = request.POST.get('content')
+        category = request.POST.get('category')
+        image = request.FILES.get('image')
+        
+        # Create a new post object
+        post = Post(
+            title=title,
+            content=content,
+            category=category,
+            image=image,
+            author=request.user
+        )
+        post.save()
+        
+        return redirect('blog-blog') # Redirect to the blog or post list page
+    
+    # Pass category choices to the template
+    categories = Post.CATEGORY_CHOICES
+    context = {
+        'categories': categories
+    }
+    return render(request, 'blog/create_post.html', context)

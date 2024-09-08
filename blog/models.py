@@ -18,7 +18,7 @@ class Post(models.Model):
     category = models.CharField(max_length=50, choices=CATEGORY_CHOICES, default='Politics')
     date_posted = models.DateTimeField(default=timezone.now)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
-    image = models.ImageField(default='default.jpg', upload_to='blog_imgs/')
+    image = models.ImageField(default='default.jpg', upload_to='blog_imgs/', blank=False, null=False)
    
    
     
@@ -26,7 +26,7 @@ class Post(models.Model):
         return self.title
 
 
-class Event_up(models.Model):
+class Event_update(models.Model):
     STATUS_CHOICES = [
         ('Scheduled', 'Scheduled'),
         ('Completed', 'Completed'),

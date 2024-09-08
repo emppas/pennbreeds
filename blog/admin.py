@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import Post
-from .models import Event_up
+from .models import Event_update
 
 # Register your models here.
 
@@ -13,4 +13,4 @@ class EventAdmin(admin.ModelAdmin):
     search_fields = ('name', 'venue')
     ordering = ('-date',) 
 
-admin.site.register(Event_up, EventAdmin)
+admin.site.register(Event_update, EventAdmin)

@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Profile, Execo
+from .models import FinancialRecord
 
 # Register your models here.
 
@@ -25,3 +26,18 @@ class ExecoAdmin(admin.ModelAdmin):
 
 # Register the Execo model with the custom admin class
 admin.site.register(Execo, ExecoAdmin)
+
+
+
+
+class FinancialRecordAdmin(admin.ModelAdmin):
+    list_display = ('user', 'membership_fee_due', 'total_amount_due', 'total_amount_owed', 'overall_debt', 'last_payment_date', 'payment_status', 'balance_owing')
+    search_fields = ('user__username', 'user__first_name', 'user__last_name')
+    list_filter = ('payment_status',)
+
+    def get_readonly_fields(self, request, obj=None):
+        if obj:
+            return self.readonly_fields + ('user',)
+        return self.readonly_fields
+
+admin.site.register(FinancialRecord, FinancialRecordAdmin)

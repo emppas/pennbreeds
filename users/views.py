@@ -54,15 +54,3 @@ def custom_login(request):
 def profile(request):
     return render(request, 'users/profile.html')
 
-# @login_required
-# def profile_list(request):
-#     profiles = Profile.objects.all()
-#     paginator = Paginator(profiles, 8)
-    
-#     page_number = request.GET.get('page')
-#     page_obj = paginator.get_page(page_number)
-    
-#     context = {
-#         'page_obj': page_obj,
-#     }
-#     return render(request, 'blog/members.html', context)
