@@ -20,6 +20,7 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from users import views as user_views
+from blog import views as blog_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,12 +28,15 @@ urlpatterns = [
     path('profile/', user_views.profile, name='profile'),
     # path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
+        path('users/', include('users.urls')),
+    path('gallery/', include('gallery.urls')),
+    path('dashboard/', include('dashboard.urls')),
     path('', include('blog.urls')),
-    path('', include('users.urls')),
-    path('', include('gallery.urls')),
-    path('', include('dashboard.urls')),
 ]
 
+handler404 = blog_views.custom_404_view
+handler500 = blog_views.custom_500_view
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

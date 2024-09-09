@@ -1,14 +1,15 @@
 {% extends "blog/base.html" %}
 {% load static %}
 
+
     <!-- Page Title -->
     <div class="page-title accent-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Blog</h1>
+        <h1 class="mb-2 mb-lg-0">Error</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="{% url 'blog-home' %}">Home</a></li>
-            <li class="current">Blog</li>
+            <li class="current">URL Error Page</li>
           </ol>
         </nav>
       </div>
@@ -17,8 +18,11 @@
 {% block content %}
 
 
-{% include 'blog/article.html' %}
-
+<div>
+    <h1>Oops! 500  Page Not Found</h1>
+    <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+    <a href="{% url 'blog-home' %}">Go to Home Page</a>
+</div>
 
 
 {% endblock content %}

@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+import calendar
 from datetime import datetime, timedelta
 from PIL import Image as PILImage
 import os
@@ -56,30 +57,27 @@ class FinancialRecord(models.Model):
     def save(self, *args, **kwargs):
         now = datetime.now().date()
         
-        # Automatically fill the last_payment_date with the last day of the month if not set
+        # Automatically set the last_payment_date to the last day of the current month if not set
         if not self.last_payment_date:
-            self.last_payment_date = self._get_last_day_of_month()
+            self.last_payment_date = self._get_last_day_of_month(now.year, now.month)
         
-        # Calculate total_amount_due based on monthly membership fee
-        if self.last_payment_date.month != now.month:
+        # Calculate total_amount_due if last payment date is in a different month than current month
+        if self.last_payment_date.month != now.month or self.last_payment_date.year != now.year:
             self.total_amount_due += self.membership_fee_due
-            self.last_payment_date = self._get_last_day_of_month()
+            self.last_payment_date = self._get_last_day_of_month(now.year, now.month)
         
         # Update balance_owing based on payment status
         self.balance_owing = self.membership_fee_due if self.payment_status == 'Unpaid' else 0.00
         
         # Calculate overall_debt
-        if self.total_amount_due > 0 and self.total_amount_owed <= 0:
-            self.overall_debt = self.total_amount_due
-        else:
-            self.overall_debt = self.total_amount_due - self.total_amount_owed
+        self.overall_debt = self.total_amount_due - self.total_amount_owed
 
         super().save(*args, **kwargs)
 
-    def _get_last_day_of_month(self):
-        first_day_of_next_month = datetime(self.last_payment_date.year, self.last_payment_date.month + 1, 1)
-        last_day_of_current_month = first_day_of_next_month - timedelta(days=1)
-        return last_day_of_current_month.date()
+    def _get_last_day_of_month(self, year, month):
+        # Get the last day of the month
+        last_day = calendar.monthrange(year, month)[1]
+        return datetime(year, month, last_day).date()
 
     def __str__(self):
         return f'{self.user.username} Financial Record'

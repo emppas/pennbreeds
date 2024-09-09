@@ -88,3 +88,9 @@ def create_post(request):
         'categories': categories
     }
     return render(request, 'blog/create_post.html', context)
+
+def custom_404_view(request, exception=None):
+    return render(request, '404.html', status=404)
+
+def custom_500_view(request):
+    return render(request, '500.html', status=500)

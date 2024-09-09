@@ -14,15 +14,6 @@
 [2024-09-02 12:27:50 +0000] [76728] [INFO] Listening at: http://0.0.0.0:8000 (76728)
 [2024-09-02 12:27:50 +0000] [76728] [INFO] Using worker: sync
 [2024-09-02 12:27:50 +0000] [76729] [INFO] Booting worker with pid: 76729
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /.vscode/sftp.json
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
 Not Found: /blog/blog-details.html
 Not Found: /blog/post-details.html
 [2024-09-02 12:53:53 +0000] [76728] [INFO] Handling signal: winch
@@ -35,7 +26,6 @@ Not Found: /blog/post_details
 Not Found: /blog/post_details
 [2024-09-02 13:02:46 +0000] [76728] [INFO] Handling signal: winch
 [2024-09-02 13:03:12 +0000] [76728] [INFO] Handling signal: winch
-Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:04:47 +0000] [76728] [INFO] Handling signal: winch
 [2024-09-02 13:07:04 +0000] [76728] [INFO] Handling signal: winch
 [2024-09-02 13:12:21 +0000] [76728] [INFO] Handling signal: winch
@@ -53,14 +43,7 @@ Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:22:36 +0000] [77772] [INFO] Listening at: http://0.0.0.0:8000 (77772)
 [2024-09-02 13:22:36 +0000] [77772] [INFO] Using worker: sync
 [2024-09-02 13:22:36 +0000] [77773] [INFO] Booting worker with pid: 77773
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:25:30 +0000] [77772] [INFO] Handling signal: winch
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:34:27 +0000] [77772] [INFO] Handling signal: int
 [2024-09-02 13:34:27 +0000] [77773] [INFO] Worker exiting (pid: 77773)
 [2024-09-02 13:34:27 +0000] [77772] [INFO] Shutting down: Master
@@ -68,8 +51,6 @@ Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:34:35 +0000] [78021] [INFO] Listening at: http://0.0.0.0:8000 (78021)
 [2024-09-02 13:34:35 +0000] [78021] [INFO] Using worker: sync
 [2024-09-02 13:34:35 +0000] [78022] [INFO] Booting worker with pid: 78022
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
 Not Found: /.well-known/acme-challenge/-D043CR342B641WO2BO-_VLE4CCJKTDW
 Not Found: /config/php.ini
 Not Found: /index.html
@@ -154,9 +135,6 @@ Forbidden (CSRF cookie not set.): /
 [2024-09-02 13:39:56 +0000] [78181] [INFO] Listening at: http://0.0.0.0:8000 (78181)
 [2024-09-02 13:39:56 +0000] [78181] [INFO] Using worker: sync
 [2024-09-02 13:39:56 +0000] [78182] [INFO] Booting worker with pid: 78182
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:42:19 +0000] [78181] [INFO] Handling signal: int
 [2024-09-02 13:42:19 +0000] [78182] [INFO] Worker exiting (pid: 78182)
 [2024-09-02 13:42:19 +0000] [78181] [INFO] Shutting down: Master
@@ -164,7 +142,6 @@ Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:43:44 +0000] [78543] [INFO] Listening at: http://0.0.0.0:8000 (78543)
 [2024-09-02 13:43:44 +0000] [78543] [INFO] Using worker: sync
 [2024-09-02 13:43:44 +0000] [78544] [INFO] Booting worker with pid: 78544
-Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:43:56 +0000] [78543] [INFO] Handling signal: int
 [2024-09-02 13:43:56 +0000] [78544] [INFO] Worker exiting (pid: 78544)
 [2024-09-02 13:43:56 +0000] [78543] [INFO] Shutting down: Master
@@ -172,10 +149,6 @@ Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:46:21 +0000] [78789] [INFO] Listening at: http://0.0.0.0:8000 (78789)
 [2024-09-02 13:46:21 +0000] [78789] [INFO] Using worker: sync
 [2024-09-02 13:46:21 +0000] [78790] [INFO] Booting worker with pid: 78790
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:49:12 +0000] [78789] [INFO] Handling signal: int
 [2024-09-02 13:49:12 +0000] [78790] [INFO] Worker exiting (pid: 78790)
 [2024-09-02 13:49:12 +0000] [78789] [INFO] Shutting down: Master
@@ -183,7 +156,6 @@ Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:49:22 +0000] [78938] [INFO] Listening at: http://0.0.0.0:8000 (78938)
 [2024-09-02 13:49:22 +0000] [78938] [INFO] Using worker: sync
 [2024-09-02 13:49:22 +0000] [78940] [INFO] Booting worker with pid: 78940
-Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:50:45 +0000] [78938] [INFO] Handling signal: int
 [2024-09-02 13:50:45 +0000] [78940] [INFO] Worker exiting (pid: 78940)
 [2024-09-02 13:50:45 +0000] [78938] [INFO] Shutting down: Master
@@ -191,14 +163,7 @@ Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:50:48 +0000] [79044] [INFO] Listening at: http://0.0.0.0:8000 (79044)
 [2024-09-02 13:50:48 +0000] [79044] [INFO] Using worker: sync
 [2024-09-02 13:50:48 +0000] [79045] [INFO] Booting worker with pid: 79045
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
 Not Found: /blog/blog-details.html
-Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:55:51 +0000] [79044] [INFO] Handling signal: int
 [2024-09-02 13:55:52 +0000] [79045] [INFO] Worker exiting (pid: 79045)
 [2024-09-02 13:55:52 +0000] [79044] [INFO] Shutting down: Master
@@ -206,7 +171,6 @@ Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:56:04 +0000] [79405] [INFO] Listening at: http://0.0.0.0:8000 (79405)
 [2024-09-02 13:56:04 +0000] [79405] [INFO] Using worker: sync
 [2024-09-02 13:56:04 +0000] [79406] [INFO] Booting worker with pid: 79406
-Not Found: /static/blog/vendor/php-email-form/validate.js
 [2024-09-02 13:58:45 +0000] [79405] [INFO] Handling signal: winch
 Not Found: /.env
 Forbidden (CSRF cookie not set.): /
@@ -279,7 +243,6 @@ Forbidden (CSRF cookie not set.): /
 Not Found: /.well-known/acme-challenge/XISN-X4I1QCOVKGWYZ7THB4Z700MKL89
 Not Found: /robots.txt
 Not Found: /sitemap.xml
-Not Found: /static/blog/vendor/php-email-form/validate.js
 Not Found: /config.json
 Not Found: /.env
 Not Found: /robots.txt
@@ -312,39 +275,21 @@ Not Found: /.env
 Not Found: /.env
 Forbidden (CSRF cookie not set.): /
 Not Found: /.well-known/acme-challenge/JG-VAW3Y0FL4IW-Z5YQPTHQLFZKUYEBJ
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
 Not Found: /vendor/laravel-filemanager/js/stand-alone-button.js
 Not Found: /images/Prostate cancer awareness program0012.jpg
 Not Found: /wp-includes/css/buttons.css
 Not Found: /media/system/js/core.js
 Not Found: /.well-known/acme-challenge/OZ6YLQ6GRHLK8-W0Y1MEH01FGZWYXYTB
-Not Found: /static/blog/vendor/php-email-form/validate.js
 Not Found: /blog-details.html
 Not Found: /favicon.ico
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
 Forbidden (CSRF token from POST incorrect.): /login/
 Forbidden (CSRF token from POST incorrect.): /login/
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/dashboard/vendor/boxicons/css/boxicons.min.css
-Not Found: /static/dashboard/vendor/quill/quill.snow.css
-Not Found: /static/dashboard/vendor/quill/quill.bubble.css
-Not Found: /static/dashboard/vendor/remixicon/remixicon.css
-Not Found: /static/dashboard/vendor/simple-datatables/style.css
 Not Found: /dashboard/dashboard/img/product-1.jpg
 Not Found: /dashboard/dashboard/img/product-2.jpg
 Not Found: /dashboard/dashboard/img/product-3.jpg
-Not Found: /static/dashboard/vendor/apexcharts/apexcharts.min.js
-Not Found: /static/dashboard/vendor/chart.js/chart.umd.js
-Not Found: /static/dashboard/vendor/echarts/echarts.min.js
-Not Found: /static/dashboard/vendor/simple-datatables/simple-datatables.js
-Not Found: /static/dashboard/vendor/quill/quill.js
+
+
 Not Found: /static/dashboard/vendor/tinymce/tinymce.min.js
-Not Found: /static/dashboard/vendor/php-email-form/validate.js
 Not Found: /dashboard/dashboard/img/product-4.jpg
 Not Found: /dashboard/dashboard/img/product-5.jpg
 Not Found: /static/dashboard/img/news-1.jpg
@@ -367,7 +312,6 @@ Not Found: /static/blog/vendor/aos/aos.cs
 Not Found: /static/blog/vendor/bootstrap-icons/bootstrap-icons.cs
 Not Found: /static/blog/vendor/bootstrap/css/bootstrap.min.cs
 Not Found: /static/blog/vendor/glightbox/css/glightbox.min.cs
-Not Found: /static/blog/vendor/php-email-form/validate.js
 Not Found: /static/blog/vendor/swiper/swiper-bundle.min.cs
 Not Found: //checkengineer.c
 Not Found: //bootstrapmade.c
@@ -378,7 +322,6 @@ Not Found: /static/blog/css/main.cs
 Not Found: /static/blog/vendor/bootstrap/css/bootstrap.min.cs
 Not Found: /static/blog/vendor/bootstrap-icons/bootstrap-icons.cs
 Not Found: /static/blog/vendor/glightbox/css/glightbox.min.cs
-Not Found: /static/blog/vendor/php-email-form/validate.js
 Not Found: /static/blog/vendor/swiper/swiper-bundle.min.cs
 Not Found: /blog-details.html
 Not Found: /blog-details.html
@@ -461,26 +404,18 @@ Not Found: /index.php
 Not Found: /public/index.php
 Not Found: /index.php
 Not Found: /index.php
-Not Found: /static/blog/vendor/php-email-form/validate.js
-Not Found: /static/dashboard/vendor/remixicon/remixicon.css
-Not Found: /static/dashboard/vendor/simple-datatables/style.css
-Not Found: /static/dashboard/vendor/quill/quill.bubble.css
-Not Found: /static/dashboard/vendor/quill/quill.snow.css
-Not Found: /static/dashboard/vendor/boxicons/css/boxicons.min.css
+
 Not Found: /dashboard/dashboard/img/product-2.jpg
-Not Found: /static/dashboard/vendor/apexcharts/apexcharts.min.js
+
 Not Found: /dashboard/dashboard/img/product-1.jpg
 Not Found: /dashboard/dashboard/img/product-3.jpg
-Not Found: /static/dashboard/vendor/chart.js/chart.umd.js
-Not Found: /static/dashboard/vendor/quill/quill.js
-Not Found: /static/dashboard/vendor/echarts/echarts.min.js
-Not Found: /static/dashboard/vendor/simple-datatables/simple-datatables.js
+
+
 Not Found: /static/dashboard/vendor/tinymce/tinymce.min.js
 Not Found: /static/dashboard/img/news-1.jpg
 Not Found: /dashboard/dashboard/img/news-4.jpg
 Not Found: /dashboard/dashboard/img/news-3.jpg
 Not Found: /dashboard/dashboard/img/news-2.jpg
-Not Found: /static/dashboard/vendor/php-email-form/validate.js
 Not Found: /dashboard/dashboard/img/product-4.jpg
 Not Found: /dashboard/dashboard/img/product-5.jpg
 Not Found: /dashboard/dashboard/img/news-5.jpg
